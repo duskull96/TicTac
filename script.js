@@ -58,10 +58,10 @@ const playerStep = function(event) {
     if (target.closest('.table-cell')){
         if (target.textContent.length < 1){
             if (counter % 2 == 0) {
-                target.textContent += 'X';
+                target.textContent = 'X';
                 namePlayerStep.textContent = 'O';
             } else {
-                target.textContent += 'O';
+                target.textContent = 'O';
                 namePlayerStep.textContent = 'X';
             }
             counter += 1;
