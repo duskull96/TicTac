@@ -66,7 +66,7 @@ const playerStep = function(event) {
             }
             counter += 1;
             checkWinner();
-        } console.log(counter);
+        }
         
     };
 };
